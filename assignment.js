@@ -22,6 +22,3 @@ function tinyFriend(friends){
     }
     return smallestFriend;
 }
-
-var result = tinyFriend(["sagar","bivash","pallab","joy"]);
-console.log(result);
