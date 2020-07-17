@@ -10,3 +10,18 @@ function woodCalculator(Chair, Table, Bed){
     var totalWood = woodForChair + woodForTable + woodForBed;
     return totalWood;
 }
+
+var friends = ["sagar","bivash","pallab","joy"]
+function tinyFriend(friends){
+    var smallestFriend = friends[0].length;
+    for(var i = 0; i < friends.length; i++){
+        var nextFriend = friends[i].length;
+        if(friends[i].length < smallestFriend){
+            smallestFriend = nextFriend; 
+        }
+    }
+    return smallestFriend;
+}
+
+var result = tinyFriend(["sagar","bivash","pallab","joy"]);
+console.log(result);
